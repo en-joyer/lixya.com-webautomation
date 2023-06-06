@@ -17,7 +17,7 @@ driver.get(hedefUrl)
 driver.find_element_by_css_selector("div[class='button-set'] a[class='btn btn-primary']").click()
 
 # Kullanıcı değerini ve şifre değerini 'kullanici.txt' dosyasından alır.
-with open('E:\\Kodlama\\playwright\\tests\\lixya\\kullanici.txt', 'r') as file:
+with open('./kullanici.txt', 'r') as file:
     lines = file.readlines()
     kullanici = lines[0].strip()
     sifre = lines[1].strip()
@@ -44,7 +44,7 @@ print('Bekleme tamamlandı!')
 # Sayfaları ve ürünleri al
 print("Ürünler alınıyor...")
 
-products = open('E:\\Kodlama\\playwright\\tests\\lixya\\products.txt', 'r', encoding="utf-8").readlines()
+products = open('./products.txt', 'r', encoding="utf-8").readlines()
 
 # Her bir sayfa için işlemleri gerçekleştir
 print("Her bir sayfa için işlemler gerçekleştiriliyor...")

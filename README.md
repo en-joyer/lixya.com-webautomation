@@ -1,6 +1,6 @@
 # Automated Product Addition Selenium Code
 
-This project was created as part of the weekly project in QA Hunt. You can find the details in Turkish in the PDF.
+This project was created as part of the weekly project in QA Hunt. You can find the details in Turkish in the DOCX.
 
 This code utilizes the Selenium library to perform web browser automation. It navigates to a specific website, logs in with user credentials, and then searches for specific products and adds them to the cart.
 

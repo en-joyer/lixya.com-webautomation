@@ -1,4 +1,5 @@
 # Automated Product Addition Selenium Code
+
 <div align="center">
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -6,6 +7,7 @@
 [![QA HUNT - Academy](https://img.shields.io/badge/QA_HUNT-Academy-blue?style=for-the-badge)](https://)
 
 </div>
+
 This project was created as part of the weekly project in QA Hunt. You can find the details in Turkish in the DOCX.
 
 This code utilizes the Selenium library to perform web browser automation. It navigates to a specific website, logs in with user credentials, and then searches for specific products and adds them to the cart.
